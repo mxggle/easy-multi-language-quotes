@@ -1,0 +1,58 @@
+.easy-quotes-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.easy-quotes-quote {
+    padding: 60px 40px;
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+    border-radius: 4px;
+    /* Slight rounding, though image looks sharp */
+    /* Remove border if it exists */
+    border: none;
+    box-shadow: none;
+}
+
+.emlq-text {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    color: #4a4a4a;
+}
+
+.emlq-zh {
+    font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.emlq-en {
+    font-family: "Caveat", cursive;
+    font-size: 2.2rem;
+    color: #4a4a4a;
+    font-style: normal;
+    /* Caveat is naturally handwriting style */
+    margin-bottom: 10px;
+}
+
+.emlq-ja {
+    font-family: "Noto Serif JP", "HiraMinProN-W3", "YuMincho", serif;
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.emlq-author {
+    margin-top: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.1rem;
+    color: #666;
+    font-style: italic;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,794 @@
+[
+    {
+        "id": 1,
+        "author": "Socrates",
+        "quote": {
+            "zh": "唯一真正的智慧在于知道自己一无所知。",
+            "en": "The only true wisdom is in knowing you know nothing.",
+            "ja": "唯一真の知は、自分が何も知らないということを知ることにある。"
+        }
+    },
+    {
+        "id": 3,
+        "author": "Aristotle",
+        "quote": {
+            "zh": "卓越不是一种行为，而是一种习惯。",
+            "en": "Excellence is not an act, but a habit.",
+            "ja": "卓越とは一つの行為ではなく、習慣である。"
+        }
+    },
+    {
+        "id": 4,
+        "author": "Confucius",
+        "quote": {
+            "zh": "三人行，必有我师焉。",
+            "en": "When three people walk together, one of them is bound to be my teacher.",
+            "ja": "三人行けば、必ず我が師あり。"
+        }
+    },
+    {
+        "id": 5,
+        "author": "Lao Tzu",
+        "quote": {
+            "zh": "千里之行，始于足下。",
+            "en": "A journey of a thousand miles begins with a single step.",
+            "ja": "千里の道も一歩から。"
+        }
+    },
+    {
+        "id": 6,
+        "author": "René Descartes",
+        "quote": {
+            "zh": "我思故我在。",
+            "en": "I think, therefore I am.",
+            "ja": "我思う、ゆえに我あり。"
+        }
+    },
+    {
+        "id": 7,
+        "author": "Friedrich Nietzsche",
+        "quote": {
+            "zh": "那些杀不死我的，都将使我更强大。",
+            "en": "That which does not kill me makes me stronger.",
+            "ja": "私を殺すに至らないものは、私をさらに強くする。"
+        }
+    },
+    {
+        "id": 8,
+        "author": "Seneca",
+        "quote": {
+            "zh": "运气就是当准备遇上了机会。",
+            "en": "Luck is what happens when preparation meets opportunity.",
+            "ja": "幸運とは、準備が機会に出会うことである。"
+        }
+    },
+    {
+        "id": 9,
+        "author": "William Shakespeare",
+        "quote": {
+            "zh": "生存还是毁灭，这是一个问题。",
+            "en": "To be, or not to be, that is the question.",
+            "ja": "生きるべきか、死ぬべきか、それが問題だ。"
+        }
+    },
+    {
+        "id": 10,
+        "author": "Leo Tolstoy",
+        "quote": {
+            "zh": "幸福的家庭都是相似的，不幸的家庭各有各的不幸。",
+            "en": "All happy families are alike; each unhappy family is unhappy in its own way.",
+            "ja": "幸福な家庭はどれも似たものだが、不幸な家庭はそれぞれに不幸の形がある。"
+        }
+    },
+    {
+        "id": 11,
+        "author": "Mark Twain",
+        "quote": {
+            "zh": "成功的秘诀是开始行动。",
+            "en": "The secret of getting ahead is getting started.",
+            "ja": "成功の秘訣は、まず始めることだ。"
+        }
+    },
+    {
+        "id": 12,
+        "author": "Oscar Wilde",
+        "quote": {
+            "zh": "我们都生活在阴沟里，但仍有人仰望星空。",
+            "en": "We are all in the gutter, but some of us are looking at the stars.",
+            "ja": "我々は皆どぶの中にいる。しかし、そこから星を眺めている者もいるのだ。"
+        }
+    },
+    {
+        "id": 13,
+        "author": "Ernest Hemingway",
+        "quote": {
+            "zh": "勇气是在压力下仍能保持优雅。",
+            "en": "Courage is grace under pressure.",
+            "ja": "勇気とは、プレッシャーの下で優雅さを保つことだ。"
+        }
+    },
+    {
+        "id": 14,
+        "author": "Rabindranath Tagore",
+        "quote": {
+            "zh": "生如夏花之绚烂，死如秋叶之静美。",
+            "en": "Let life be beautiful like summer flowers and death like autumn leaves.",
+            "ja": "生は夏の花のように絢爛と、死は秋の葉のように静寂であれ。"
+        }
+    },
+    {
+        "id": 15,
+        "author": "Leonardo da Vinci",
+        "quote": {
+            "zh": "简约是最终的复杂。",
+            "en": "Simplicity is the ultimate sophistication.",
+            "ja": "シンプルさは究極の洗練である。"
+        }
+    },
+    {
+        "id": 16,
+        "author": "Vincent van Gogh",
+        "quote": {
+            "zh": "我梦想着绘画，我画着我的梦想。",
+            "en": "I dream my painting, and then I paint my dream.",
+            "ja": "私は自分の絵を夢に見、そしてその夢を描く。"
+        }
+    },
+    {
+        "id": 17,
+        "author": "Albert Einstein",
+        "quote": {
+            "zh": "想象力比知识更重要。",
+            "en": "Imagination is more important than knowledge.",
+            "ja": "想像力は知識よりも重要である。"
+        }
+    },
+    {
+        "id": 18,
+        "author": "Isaac Newton",
+        "quote": {
+            "zh": "如果说我看得比别人更远，那是因为我站在巨人的肩膀上。",
+            "en": "If I have seen further it is by standing on the shoulders of Giants.",
+            "ja": "もし私が遠くを見渡せたとすれば、それは巨人の肩の上に立っていたからだ。"
+        }
+    },
+    {
+        "id": 19,
+        "author": "Marie Curie",
+        "quote": {
+            "zh": "生活中没有什么可怕的东西，只有需要理解的东西。",
+            "en": "Nothing in life is to be feared, it is only to be understood.",
+            "ja": "人生に恐れるべきものなどありません。ただ理解すべきものがあるだけです。"
+        }
+    },
+    {
+        "id": 20,
+        "author": "Thomas Edison",
+        "quote": {
+            "zh": "天才是百分之一的灵感，百分之九十九的汗水。",
+            "en": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+            "ja": "天才とは、1パーセントのひらめきと99パーセントの汗である。"
+        }
+    },
+    {
+        "id": 21,
+        "author": "Steve Jobs",
+        "quote": {
+            "zh": "求知若饥，虚心若愚。",
+            "en": "Stay hungry, stay foolish.",
+            "ja": "ハングリーであれ、愚かであれ。"
+        }
+    },
+    {
+        "id": 22,
+        "author": "Bill Gates",
+        "quote": {
+            "zh": "你最不满意的客户，是你最大的学习来源。",
+            "en": "Your most unhappy customers are your greatest source of learning.",
+            "ja": "最も不満を持つ顧客こそ、最も偉大な学習の源泉である。"
+        }
+    },
+    {
+        "id": 23,
+        "author": "Abraham Lincoln",
+        "quote": {
+            "zh": "民有、民治、民享的政府必将永世长存。",
+            "en": "Government of the people, by the people, for the people, shall not perish from the earth.",
+            "ja": "人民の、人民による、人民のための政府は、この地上から消えることはない。"
+        }
+    },
+    {
+        "id": 24,
+        "author": "Winston Churchill",
+        "quote": {
+            "zh": "成功不是终点，失败也非末日，重要的是继续前进的勇气。",
+            "en": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+            "ja": "成功は終わりではなく、失敗は致命的ではない。大切なのは、続ける勇気だ。"
+        }
+    },
+    {
+        "id": 26,
+        "author": "Martin Luther King Jr.",
+        "quote": {
+            "zh": "我有一个梦想。",
+            "en": "I have a dream.",
+            "ja": "私には夢がある。"
+        }
+    },
+    {
+        "id": 27,
+        "author": "Mahatma Gandhi",
+        "quote": {
+            "zh": "欲变世界，先变其身。",
+            "en": "Be the change that you wish to see in the world.",
+            "ja": "あなたが見たいと願う世界の変化に、あなた自身がなりなさい。"
+        }
+    },
+    {
+        "id": 28,
+        "author": "Franklin D. Roosevelt",
+        "quote": {
+            "zh": "我们唯一需要恐惧的，是恐惧本身。",
+            "en": "The only thing we have to fear is fear itself.",
+            "ja": "我々が恐れるべき唯一のものは、恐怖そのものである。"
+        }
+    },
+    {
+        "id": 29,
+        "author": "Helen Keller",
+        "quote": {
+            "zh": "面向太阳，你就看不到阴影。",
+            "en": "Keep your face to the sunshine and you cannot see a shadow.",
+            "ja": "顔を太陽に向けていれば、影を見ることはない。"
+        }
+    },
+    {
+        "id": 30,
+        "author": "Anne Frank",
+        "quote": {
+            "zh": "尽管发生了这一切，我依然相信人性本善。",
+            "en": "In spite of everything, I still believe that people are really good at heart.",
+            "ja": "すべてがあったにもかかわらず、私は今でも人の心は本当に善良だと信じています。"
+        }
+    },
+    {
+        "id": 31,
+        "author": "Walt Disney",
+        "quote": {
+            "zh": "所有我们的梦想都能成真，只要我们有勇气去追求。",
+            "en": "All our dreams can come true, if we have the courage to pursue them.",
+            "ja": "追い求める勇気があるなら、すべての夢は叶う。"
+        }
+    },
+    {
+        "id": 32,
+        "author": "Michael Jordan",
+        "quote": {
+            "zh": "我可以接受失败，但我不能接受放弃。",
+            "en": "I can accept failure, everyone fails at something. But I can't accept not trying.",
+            "ja": "失敗は受け入れられるが、挑戦しないことは受け入れられない。"
+        }
+    },
+    {
+        "id": 33,
+        "author": "Oprah Winfrey",
+        "quote": {
+            "zh": "激情是能量。感受那种能让你兴奋的力量。",
+            "en": "Passion is energy. Feel the power that comes from focusing on what excites you.",
+            "ja": "情熱はエネルギーです。あなたを興奮させるものに集中することから生まれる力を感じてください。"
+        }
+    },
+    {
+        "id": 34,
+        "author": "Coco Chanel",
+        "quote": {
+            "zh": "想要无可取代，就必须时刻与众不同。",
+            "en": "In order to be irreplaceable one must always be different.",
+            "ja": "かけがえのない存在になるためには、常に人と違っていなければならない。"
+        }
+    },
+    {
+        "id": 35,
+        "author": "Benjamin Franklin",
+        "quote": {
+            "zh": "要么写一些值得读的东西，要么做一些值得写的事情。",
+            "en": "Either write something worth reading or do something worth writing.",
+            "ja": "読む価値のあるものを書くか、書く価値のあることをするか、どちらかだ。"
+        }
+    },
+    {
+        "id": 36,
+        "author": "Bruce Lee",
+        "quote": {
+            "zh": "清空你的思想，无形无式，如水一般。",
+            "en": "Empty your mind, be formless, shapeless, like water.",
+            "ja": "心を空にせよ。形をなくし、姿をなくし、水のごとく。"
+        }
+    },
+    {
+        "id": 37,
+        "author": "Romain Rolland",
+        "quote": {
+            "zh": "世上只有一种英雄主义，就是在认清生活真相后依然热爱生活。",
+            "en": "There is only one heroism in the world: to see the world as it is and to love it.",
+            "ja": "世にはただ一つの英雄主義がある。それは、世のありのままの姿を見て、なおかつこれを愛することである。"
+        }
+    },
+    {
+        "id": 38,
+        "author": "Voltaire",
+        "quote": {
+            "zh": "我不同意你的观点，但我誓死捍卫你说话的权利。",
+            "en": "I disapprove of what you say, but I will defend to the death your right to say it.",
+            "ja": "私はあなたの意見には反対だが、あなたがそれを主張する権利は命をかけて守る。"
+        }
+    },
+    {
+        "id": 39,
+        "author": "Henry Ford",
+        "quote": {
+            "zh": "无论你认为你能，还是你认为你不能，你都是对的。",
+            "en": "Whether you think you can, or you think you can't – you're right.",
+            "ja": "できると思っても、できないと思っても、どちらも正しい。"
+        }
+    },
+    {
+        "id": 40,
+        "author": "Mother Teresa",
+        "quote": {
+            "zh": "我们无法做大事，但我们可以用大爱做小事。",
+            "en": "We cannot all do great things, but we can do small things with great love.",
+            "ja": "誰もが偉大なことをできるわけではありませんが、偉大な愛をもって小さなことをすることはできます。"
+        }
+    },
+    {
+        "id": 41,
+        "author": "Sun Tzu",
+        "quote": {
+            "zh": "知己知彼，百战不殆。",
+            "en": "Know yourself and know your enemy, and you will never be defeated in a hundred battles.",
+            "ja": "彼を知り己を知れば百戦殆うからず。"
+        }
+    },
+    {
+        "id": 42,
+        "author": "Marcus Aurelius",
+        "quote": {
+            "zh": "最好的报复就是与伤害你的人完全不同。",
+            "en": "The best revenge is to be unlike him who performed the injury.",
+            "ja": "最良の復讐とは、危害を加えた者と違う人間になることだ。"
+        }
+    },
+    {
+        "id": 44,
+        "author": "Jean-Jacques Rousseau",
+        "quote": {
+            "zh": "人人生而自由，却无往不在枷锁之中。",
+            "en": "Man is born free, and everywhere he is in chains.",
+            "ja": "人は生まれながらにして自由であるが、至る所で鎖に繋がれている。"
+        }
+    },
+    {
+        "id": 45,
+        "author": "George Orwell",
+        "quote": {
+            "zh": "在欺骗的时代，说真话是一种革命行为。",
+            "en": "In a time of deceit telling the truth is a revolutionary act.",
+            "ja": "欺瞞の時代において、真実を語ることは革命的な行為である。"
+        }
+    },
+    {
+        "id": 46,
+        "author": "Albert Camus",
+        "quote": {
+            "zh": "在隆冬之际，我终于发现，我内心有一个不败的夏天。",
+            "en": "In the midst of winter, I found there was, within me, an invincible summer.",
+            "ja": "冬の真っただ中に、私はついに、自分の中に不屈の夏があることを知った。"
+        }
+    },
+    {
+        "id": 47,
+        "author": "Pablo Picasso",
+        "quote": {
+            "zh": "每个孩子都是艺术家，问题在于长大后如何保持艺术家的身份。",
+            "en": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+            "ja": "すべての子供は芸術家だ。問題は、大人になっても芸術家でいられるかだ。"
+        }
+    },
+    {
+        "id": 48,
+        "author": "Carl Sagan",
+        "quote": {
+            "zh": "在某个地方，某个不可思议的东西正等着被发现。",
+            "en": "Somewhere, something incredible is waiting to be known.",
+            "ja": "どこかで、何か信じられないような素晴らしいことが、発見されるのを待っている。"
+        }
+    },
+    {
+        "id": 51,
+        "author": "Nikola Tesla",
+        "quote": {
+            "zh": "现在是他们的；而我真正为之奋斗的未来，是我的。",
+            "en": "The present is theirs; the future, for which I really worked, is mine.",
+            "ja": "現在は彼らのものだ。だが私が真に働いた未来は、私のものだ。"
+        }
+    },
+    {
+        "id": 52,
+        "author": "Elon Musk",
+        "quote": {
+            "zh": "当一件事足够重要时，即使胜算不大，你也要去做。",
+            "en": "When something is important enough, you do it even if the odds are not in your favor.",
+            "ja": "何かが十分に重要であるならば、たとえ勝ち目がなくても、あなたはそれを実行するべきだ。"
+        }
+    },
+    {
+        "id": 53,
+        "author": "John F. Kennedy",
+        "quote": {
+            "zh": "不要问你的国家能为你做什么，而要问你能为你的国家做什么。",
+            "en": "Ask not what your country can do for you – ask what you can do for your country.",
+            "ja": "国があなたのために何をしてくれるのかを問うのではなく、あなたが国のために何をできるのかを問いなさい。"
+        }
+    },
+    {
+        "id": 54,
+        "author": "Napoleon Bonaparte",
+        "quote": {
+            "zh": "胜利属于最坚韧的人。",
+            "en": "Victory belongs to the most persevering.",
+            "ja": "勝利は最も忍耐強い者に属する。"
+        }
+    },
+    {
+        "id": 55,
+        "author": "Eleanor Roosevelt",
+        "quote": {
+            "zh": "未经你的许可，没有人能让你感到自卑。",
+            "en": "No one can make you feel inferior without your consent.",
+            "ja": "あなたの同意なしに、誰もあなたを劣等感に陥らせることはできない。"
+        }
+    },
+    {
+        "id": 56,
+        "author": "Theodore Roosevelt",
+        "quote": {
+            "zh": "相信你能做到，你就已经成功了一半。",
+            "en": "Believe you can and you're halfway there.",
+            "ja": "自分にできると信じれば、もう半分は終わっている。"
+        }
+    },
+    {
+        "id": 57,
+        "author": "Ralph Waldo Emerson",
+        "quote": {
+            "zh": "不要去走别人走过的路，要去你从未去过的地方，并留下你的足迹。",
+            "en": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+            "ja": "道のあるところへ行くな。道の無いところへ進み、足跡を残せ。"
+        }
+    },
+    {
+        "id": 58,
+        "author": "Henry David Thoreau",
+        "quote": {
+            "zh": "重要的不是你看到了什么，而是你理解了什么。",
+            "en": "It's not what you look at that matters, it's what you see.",
+            "ja": "何を見るかが重要なのではなく、何が見えるかが重要だ。"
+        }
+    },
+    {
+        "id": 60,
+        "author": "J.K. Rowling",
+        "quote": {
+            "zh": "决定我们成为什么样人的，不是我们的能力，而是我们的选择。",
+            "en": "It is our choices... that show what we truly are, far more than our abilities.",
+            "ja": "我々が何者であるかを示すのは、我々の能力ではなく、我々の選択なのだ。"
+        }
+    },
+    {
+        "id": 61,
+        "author": "C.S. Lewis",
+        "quote": {
+            "zh": "你无法回到过去改变开始，但你可以从现在开始，改变结局。",
+            "en": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+            "ja": "過去に戻って始まりを変えることはできないが、今いる場所から始めて結末を変えることはできる。"
+        }
+    },
+    {
+        "id": 62,
+        "author": "George Eliot",
+        "quote": {
+            "zh": "想成为理想中的自己，永远为时不晚。",
+            "en": "It is never too late to be what you might have been.",
+            "ja": "なりたかった自分になるのに、遅すぎるということはない。"
+        }
+    },
+    {
+        "id": 63,
+        "author": "Zig Ziglar",
+        "quote": {
+            "zh": "你不需要很厉害才能开始，但你需要开始才能变得很厉害。",
+            "en": "You don't have to be great to start, but you have to start to be great.",
+            "ja": "始めるために偉大である必要はないが、偉大になるためには始めなければならない。"
+        }
+    },
+    {
+        "id": 64,
+        "author": "Confucius",
+        "quote": {
+            "zh": "己所不欲，勿施于人。",
+            "en": "Do not impose on others what you yourself do not desire.",
+            "ja": "己の欲せざるところ、人に施すこと勿れ。"
+        }
+    },
+    {
+        "id": 65,
+        "author": "Aristotle",
+        "quote": {
+            "zh": "认识自己是所有智慧的开端。",
+            "en": "Knowing yourself is the beginning of all wisdom.",
+            "ja": "自分自身を知ることは、すべての知恵の始まりである。"
+        }
+    },
+    {
+        "id": 66,
+        "author": "Socrates",
+        "quote": {
+            "zh": "未经审视的人生不值得过。",
+            "en": "An unexamined life is not worth living.",
+            "ja": "吟味されない人生は、生きる価値がない。"
+        }
+    },
+    {
+        "id": 67,
+        "author": "Martin Luther King Jr.",
+        "quote": {
+            "zh": "做正确的事，任何时候都是好时候。",
+            "en": "The time is always right to do what is right.",
+            "ja": "正しいことをするのに、時を選ぶ必要はない。"
+        }
+    },
+    {
+        "id": 69,
+        "author": "Albert Einstein",
+        "quote": {
+            "zh": "人生就像骑自行车，想要保持平衡，就必须不断前进。",
+            "en": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+            "ja": "人生とは自転車のようなものだ。倒れないようにするには、走り続けなければならない。"
+        }
+    },
+    {
+        "id": 70,
+        "author": "Steve Jobs",
+        "quote": {
+            "zh": "你的时间有限，所以不要浪费在过别人的生活上。",
+            "en": "Your time is limited, so don't waste it living someone else's life.",
+            "ja": "あなたの時間は限られている。だから、他人の人生を生きて無駄にしてはいけない。"
+        }
+    },
+    {
+        "id": 71,
+        "author": "Mark Twain",
+        "quote": {
+            "zh": "你一生中最重要的两天，是你出生的那天，和你明白自己为何而生的那天。",
+            "en": "The two most important days in your life are the day you are born and the day you find out why.",
+            "ja": "人生で最も重要な日は二日ある。生まれた日と、なぜ生まれたかを知る日だ。"
+        }
+    },
+    {
+        "id": 72,
+        "author": "Leonardo da Vinci",
+        "quote": {
+            "zh": "学习永不耗尽心智。",
+            "en": "Learning never exhausts the mind.",
+            "ja": "学ぶことは決して精神を疲れさせない。"
+        }
+    },
+    {
+        "id": 73,
+        "author": "Vincent van Gogh",
+        "quote": {
+            "zh": "我宁愿死于激情，也不愿死于无聊。",
+            "en": "I would rather die of passion than of boredom.",
+            "ja": "退屈で死ぬくらいなら、情熱で死んだほうがましだ。"
+        }
+    },
+    {
+        "id": 74,
+        "author": "Coco Chanel",
+        "quote": {
+            "zh": "最有勇气的行为，仍然是独立思考，并大声说出来。",
+            "en": "The most courageous act is still to think for yourself. Aloud.",
+            "ja": "最も勇敢な行為は、今なお自分自身で考え、それを声に出すことだ。"
+        }
+    },
+    {
+        "id": 75,
+        "author": "Henry Ford",
+        "quote": {
+            "zh": "失败只是一个重新开始的机会，这次会更聪明。",
+            "en": "Failure is simply the opportunity to begin again, this time more intelligently.",
+            "ja": "失敗とは、より賢くやり直すための機会に過ぎない。"
+        }
+    },
+    {
+        "id": 76,
+        "author": "Walt Disney",
+        "quote": {
+            "zh": "开始做一件事的方法，就是停止空谈，开始行动。",
+            "en": "The way to get started is to quit talking and begin doing.",
+            "ja": "何かを始める方法は、話すのをやめて行動し始めることだ。"
+        }
+    },
+    {
+        "id": 77,
+        "author": "Lu Xun",
+        "quote": {
+            "zh": "世上本没有路，走的人多了，也便成了路。",
+            "en": "Originally, there was no path in this world. A path is made by the number of people who walk on it.",
+            "ja": "もともと地上に道はない。歩く人が多くなれば、それが道になるのだ。"
+        }
+    },
+    {
+        "id": 78,
+        "author": "William Shakespeare",
+        "quote": {
+            "zh": "整个世界是一个舞台，所有的男男女女不过是演员。",
+            "en": "All the world's a stage, and all the men and women merely players.",
+            "ja": "全世界は一つの舞台であり、すべての男と女は役者にすぎない。"
+        }
+    },
+    {
+        "id": 80,
+        "author": "Emily Dickinson",
+        "quote": {
+            "zh": "永恒是由一个个“现在”组成的。",
+            "en": "Forever is composed of nows.",
+            "ja": "永遠は、今この瞬間の連続でできている。"
+        }
+    },
+    {
+        "id": 81,
+        "author": "Friedrich Nietzsche",
+        "quote": {
+            "zh": "一个知道为何而活的人，几乎可以忍受任何生存方式。",
+            "en": "He who has a why to live can bear almost any how.",
+            "ja": "生きるための「なぜ」を持つ者は、ほとんどすべての「どのように」に耐えることができる。"
+        }
+    },
+    {
+        "id": 82,
+        "author": "Carl Jung",
+        "quote": {
+            "zh": "我不是我的遭遇，我是我选择成为的样子。",
+            "en": "I am not what happened to me, I am what I choose to become.",
+            "ja": "私は私に起こったことではない。私がなることを選んだものである。"
+        }
+    },
+    {
+        "id": 83,
+        "author": "Dalai Lama",
+        "quote": {
+            "zh": "我们人生的目的，是获得幸福。",
+            "en": "The purpose of our lives is to be happy.",
+            "ja": "我々の人生の目的は、幸福になることである。"
+        }
+    },
+    {
+        "id": 84,
+        "author": "Stephen Covey",
+        "quote": {
+            "zh": "关键不是优先处理日程上的事，而是将你的优先事项排入日程。",
+            "en": "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
+            "ja": "重要なのは、スケジュールにあることを優先するのではなく、優先事項をスケジュールに組み込むことだ。"
+        }
+    },
+    {
+        "id": 85,
+        "author": "George Bernard Shaw",
+        "quote": {
+            "zh": "人生不是发现自己，而是创造自己。",
+            "en": "Life isn't about finding yourself. Life is about creating yourself.",
+            "ja": "人生とは自分を見つけることではない。人生とは自分を創ることである。"
+        }
+    },
+    {
+        "id": 86,
+        "author": "Victor Hugo",
+        "quote": {
+            "zh": "即使是最黑暗的夜晚，也会结束，太阳也终将升起。",
+            "en": "Even the darkest night will end and the sun will rise.",
+            "ja": "どんなに暗い夜でも必ず終わり、太陽は昇る。"
+        }
+    },
+    {
+        "id": 87,
+        "author": "Jeff Bezos",
+        "quote": {
+            "zh": "你的品牌就是当着你不在场时，别人怎么评价你。",
+            "en": "Your brand is what other people say about you when you're not in the room.",
+            "ja": "あなたのブランドとは、あなたが部屋にいないときに、他の人があなたのことを何と言うかである。"
+        }
+    },
+    {
+        "id": 88,
+        "author": "Thomas Jefferson",
+        "quote": {
+            "zh": "我发现，我工作越努力，我的运气就越好。",
+            "en": "I find that the harder I work, the more luck I seem to have.",
+            "ja": "働けば働くほど、運が向いてくることに気づいた。"
+        }
+    },
+    {
+        "id": 91,
+        "author": "Lao Tzu",
+        "quote": {
+            "zh": "大音希声，大象无形。",
+            "en": "The greatest sound is silent. The greatest form is formless.",
+            "ja": "大音は声希く、大象は形無し。"
+        }
+    },
+    {
+        "id": 92,
+        "author": "Zhuangzi",
+        "quote": {
+            "zh": "子非鱼，安知鱼之乐？",
+            "en": "You are not a fish, so how can you know the happiness of a fish?",
+            "ja": "子、魚にあらず。いずくんぞ魚の楽しみを知らんや。"
+        }
+    },
+    {
+        "id": 94,
+        "author": "Alexander Graham Bell",
+        "quote": {
+            "zh": "当一扇门关上时，另一扇门会打开。",
+            "en": "When one door closes, another opens.",
+            "ja": "一つのドアが閉まると、もう一つのドアが開く。"
+        }
+    },
+    {
+        "id": 95,
+        "author": "Fyodor Dostoevsky",
+        "quote": {
+            "zh": "人类存在的奥秘，不仅仅在于活着，更在于找到活着的理由。",
+            "en": "The mystery of human existence lies not in just staying alive, but in finding something to live for.",
+            "ja": "人間の存在の神秘は、ただ生きることにあるのではなく、何のために生きるかを見出すことにある。"
+        }
+    },
+    {
+        "id": 96,
+        "author": "Anatole France",
+        "quote": {
+            "zh": "要成就大事，我们不仅要行动，还要梦想；不仅要计划，还要相信。",
+            "en": "To accomplish great things, we must not only act, but also dream; not only plan, but also believe.",
+            "ja": "偉大なことを成し遂げるためには、行動するだけでなく、夢を見なければならない。計画するだけでなく、信じなければならない。"
+        }
+    },
+    {
+        "id": 97,
+        "author": "Margaret Thatcher",
+        "quote": {
+            "zh": "如果你想让事情被说出来，问男人；如果你想让事情被完成，问女人。",
+            "en": "If you want something said, ask a man; if you want something done, ask a woman.",
+            "ja": "何かを言ってもらいたいなら男性に頼みなさい。何かをしてもらいたいなら女性に頼みなさい。"
+        }
+    },
+    {
+        "id": 99,
+        "author": "Virginia Woolf",
+        "quote": {
+            "zh": "如果一个人没有吃好，他就无法思考好、爱得好、睡得好。",
+            "en": "One cannot think well, love well, sleep well, if one has not dined well.",
+            "ja": "よく食べていなければ、よく考えることも、よく愛することも、よく眠ることもできない。"
+        }
+    },
+    {
+        "id": 100,
+        "author": "Mohammad Ali",
+        "quote": {
+            "zh": "像蝴蝶一样飞舞，像蜜蜂一样蜇人。",
+            "en": "Float like a butterfly, sting like a bee.",
+            "ja": "蝶のように舞い、蜂のように刺す。"
+        }
+    }
+]
