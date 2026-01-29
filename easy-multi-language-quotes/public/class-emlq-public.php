@@ -17,10 +17,21 @@ class EMLQ_Public {
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/emlq-public.css', array(), $this->version, 'all' );
         
         wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/emlq-public.js', array(), $this->version, true );
-        wp_localize_script( $this->plugin_name, 'emlqData', array(
+        
+        $options = get_option( $this->option_name );
+        $frequency = isset( $options['frequency'] ) ? $options['frequency'] : 'always';
+        
+        $data = array(
             'apiUrl' => rest_url( 'emlq/v1/quote' ),
-            'nonce' => wp_create_nonce( 'wp_rest' )
-        ));
+            'nonce' => wp_create_nonce( 'wp_rest' ),
+            'frequency' => $frequency
+        );
+
+        if ( 'always' === $frequency ) {
+            $data['quotes'] = get_option( 'emlq_all_quotes' );
+        }
+
+        wp_localize_script( $this->plugin_name, 'emlqData', $data );
 	}
 
     public function register_routes() {
@@ -59,8 +70,29 @@ class EMLQ_Public {
     }
 
 	public function render_shortcode( $atts ) {
-        // Return placeholder for JS to populate
-        return '<div class="emlq-root"></div>';
+        $all_quotes = get_option( 'emlq_all_quotes' );
+
+        if ( empty( $all_quotes ) || ! is_array( $all_quotes ) ) {
+            return '<div class="emlq-root"></div>';
+        }
+
+        $options = get_option( $this->option_name );
+        $frequency = isset( $options['frequency'] ) ? $options['frequency'] : 'always';
+        
+        $selected_quote = $this->get_quote_based_on_frequency( $all_quotes, $frequency );
+
+        if ( ! $selected_quote ) {
+            return '<div class="emlq-root"></div>';
+        }
+
+        $html = $this->generate_html( $selected_quote );
+        $index = isset( $selected_quote['_index'] ) ? $selected_quote['_index'] : '';
+        
+        return sprintf( '<div class="emlq-root" data-frequency="%s" data-index="%s">%s</div>', 
+            esc_attr( $frequency ), 
+            esc_attr( $index ),
+            $html 
+        );
 	}
 
 	private function get_quote_based_on_frequency( $quotes, $frequency ) {

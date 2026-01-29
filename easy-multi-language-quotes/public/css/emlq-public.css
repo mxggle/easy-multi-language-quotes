@@ -56,3 +56,17 @@
     font-style: italic;
     letter-spacing: 1px;
 }
+
+.emlq-root {
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hide the SSR quote initially if we are in 'always' mode to prevent blinking during client-side randomization */
+.emlq-root[data-frequency="always"] {
+    opacity: 0;
+}
+
+/* Class to reveal the quote after randomization or if no randomization needed */
+.emlq-root.is-visible {
+    opacity: 1 !important;
+}
